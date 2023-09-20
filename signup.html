@@ -2,14 +2,23 @@
 <html>
     <head>
     <title>Sign Up</title>
+    <link rel="stylesheet" href="signUp.css">
     </head>
 <body>
-<h1> Sign Up </h1>
-
-
-
-
-
+    <div class="container">
+        <h1>Sign Up</h1>
+    <form action="/submit_signup" method="post">
+        <label for="fname">First Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last Name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email"><br>
+        <label for="pwd">Password:</label><br>
+        <input type="password" id="pwd" name="pwd"><br>
+        <input type="submit" value="Submit" class="submit">
+    </form> 
+</div>
 
 </body>
 </html>

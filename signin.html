@@ -2,14 +2,26 @@
 <html>
     <head>
     <title>Sign In</title>
+    <link rel="stylesheet" href="signIn.css">
     </head>
 <body>
-<h1> Sign In </h1>
 
+<form action="/submit_signin" method="post">
+    <div class="container">
+        <h1> Sign In </h1>
+        <label for="e-mail">E-Mail</label><br>
+        <input type="text" placeholder="Enter E-Mail" name="e-mail" required><br>
 
+        <label for="psw">Password</label><br>
+        <input type="password" placeholder="Enter Password" name="psw" required><br>
 
+        <button type="submit">Login</button><br>
 
+        <button class="psw">Forgot Password?</button>
+    </div>    
+
+</form>
 
 
 </body>
-</html>
+</html> 
